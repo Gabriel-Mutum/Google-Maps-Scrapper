@@ -194,7 +194,7 @@ def main():
     parser.add_argument("-o", "--output", type=str, default="result.csv", help="Output CSV file path")
     parser.add_argument("--append", action="store_true", help="Append results to the output file instead of overwriting")
     args = parser.parse_args()
-    search_for = args.search or "Japanese Restaurants in Boston MA"
+    search_for = args.search or "Japanese Restaurants in NYC"
     total = args.total or 1
     output_path = args.output
     append = args.append

@@ -26,7 +26,7 @@ Run the script with your desired search term and number of results:
 python main.py -s "Italian Restaurants in New York City" -t 20
 ```
 
-- `-s` or `--search`: Search query for Google Maps (default: "turkish stores in toronto Canada")
+- `-s` or `--search`: Search query for Google Maps (default: "Japanese Restaurants in Boston MA")
 - `-t` or `--total`: Number of results to scrape (default: 1)
 - `-o` or `--output`: Output CSV file path (default: result.csv)
 - `--append`: Append results to the output file instead of overwriting (default: off)
