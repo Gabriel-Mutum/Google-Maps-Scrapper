@@ -161,6 +161,7 @@ def save_places_to_csv(places: List[Place], output_path: str = "result.csv", app
 
     if not df.empty:
 
+        #renaming columns for better readability
         df.rename(columns={
             "name": "Place Name",
             "address": "Full Address",
